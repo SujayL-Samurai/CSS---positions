@@ -1,0 +1,50 @@
+position:
+
+relative = positioned relative to where it normally
+fixed = positioned relative to the viewport
+absolute = positioned relative to the viewport
+sticky = positioned based on scroll position
+static = default position for an element
+
+
+
+<!DOCTYPE html>
+<html>
+<body>
+<link rel="stylesheet" href="style.css">
+		
+<div id="box1">
+	<div id="box2"></div>
+</div>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi recusandae laudantium minus dignissimos harum unde quae modi illum maxime quidem autem asperiores corrupti saepe consequatur possimus, blanditiis aliquid obcaecati dolorum.</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi recusandae laudantium minus dignissimos harum unde quae modi illum maxime quidem autem asperiores corrupti saepe consequatur possimus, blanditiis aliquid obcaecati dolorum.</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi recusandae laudantium minus dignissimos harum unde quae modi illum maxime quidem autem asperiores corrupti saepe consequatur possimus, blanditiis aliquid obcaecati dolorum.</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi recusandae laudantium minus dignissimos harum unde quae modi illum maxime quidem autem asperiores corrupti saepe consequatur possimus, blanditiis aliquid obcaecati dolorum.</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi recusandae laudantium minus dignissimos harum unde quae modi illum maxime quidem autem asperiores corrupti saepe consequatur possimus, blanditiis aliquid obcaecati dolorum.</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi recusandae laudantium minus dignissimos harum unde quae modi illum maxime quidem autem asperiores corrupti saepe consequatur possimus, blanditiis aliquid obcaecati dolorum.</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi recusandae laudantium minus dignissimos harum unde quae modi illum maxime quidem autem asperiores corrupti saepe consequatur possimus, blanditiis aliquid obcaecati dolorum.</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi recusandae laudantium minus dignissimos harum unde quae modi illum maxime quidem autem asperiores corrupti saepe consequatur possimus, blanditiis aliquid obcaecati dolorum.</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi recusandae laudantium minus dignissimos harum unde quae modi illum maxime quidem autem asperiores corrupti saepe consequatur possimus, blanditiis aliquid obcaecati dolorum.</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi recusandae laudantium minus dignissimos harum unde quae modi illum maxime quidem autem asperiores corrupti saepe consequatur possimus, blanditiis aliquid obcaecati dolorum.</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi recusandae laudantium minus dignissimos harum unde quae modi illum maxime quidem autem asperiores corrupti saepe consequatur possimus, blanditiis aliquid obcaecati dolorum.</p>
+</body>
+</html>
+
+style.css
+
+#box1{
+width: 200px;
+height: 200px;
+background-color: aqua;
+position: fixed;
+top: 0px;
+}
+#box2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(247, 99, 8);
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    }
+    
